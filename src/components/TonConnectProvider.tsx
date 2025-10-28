@@ -6,7 +6,7 @@ interface TonConnectProviderProps {
 }
 
 const TonConnectProvider = ({ children }: TonConnectProviderProps) => {
-  const manifestUrl = 'https://gcoinv3.com/ton-connect-manifest.json';
+  const manifestUrl = 'https://gxcoinv4mywalletupdate-hitgn.sevalla.page/ton-connect-manifest.json';
 
   console.log('🔧 TON Connect initialized with manifest:', manifestUrl);
 

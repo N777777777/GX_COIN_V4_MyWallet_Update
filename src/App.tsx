@@ -80,7 +80,7 @@ const App = () => {
           manifestUrl={
           window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname.endsWith('.manusvm.computer')
             ? 'https://ton-connect.github.io/demo-dapp-with-wallet/tonconnect-manifest.json' // استخدام Manifest عام للاختبار في البيئات المؤقتة
-            : `${window.location.origin}/ton-connect-manifest.json`
+            : `https://gxcoinv4mywalletupdate-hitgn.sevalla.page/ton-connect-manifest.json`
         }
           actionsConfiguration={{
             twaReturnUrl: 'https://t.me/G3_COIN_V3_BOT'
@@ -105,7 +105,7 @@ const App = () => {
         manifestUrl={
           window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname.endsWith('.manusvm.computer')
             ? 'https://ton-connect.github.io/demo-dapp-with-wallet/tonconnect-manifest.json' // استخدام Manifest عام للاختبار في البيئات المؤقتة
-            : `${window.location.origin}/ton-connect-manifest.json`
+            : `https://gxcoinv4mywalletupdate-hitgn.sevalla.page/ton-connect-manifest.json`
         }
         actionsConfiguration={{
           twaReturnUrl: 'https://t.me/G3_COIN_V3_BOT'

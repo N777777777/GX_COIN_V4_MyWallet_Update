@@ -1,0 +1,28 @@
+{
+  "name": "G COIN V3 - Arabian Coin Bot",
+  "short_name": "G COIN V3",
+  "description": "بوت G COIN الرسمي - اربح العملات واسحب TON فوراً",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#f0ca0c",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/lovable-uploads/9ea8efdf-d517-4006-a536-21c1c5255fbc.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lovable-uploads/9ea8efdf-d517-4006-a536-21c1c5255fbc.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "games"],
+  "lang": "ar",
+  "dir": "rtl"
+}

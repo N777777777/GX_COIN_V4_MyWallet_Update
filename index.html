@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>G COIN V3 Bot</title>
+    <meta name="description" content="G COIN V3 - بوت تليجرام لكسب النقاط والعملات الرقمية" />
+    <meta name="author" content="G COIN" />
+    
+    <!-- Mobile optimizations -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="G COIN V3">
+    <meta name="application-name" content="G COIN V3">
+    <meta name="theme-color" content="#f0ca0c">
+    <meta name="msapplication-TileColor" content="#1a1a1a">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="icon" href="/lovable-uploads/9ea8efdf-d517-4006-a536-21c1c5255fbc.png">
+    <link rel="apple-touch-icon" href="/lovable-uploads/9ea8efdf-d517-4006-a536-21c1c5255fbc.png">
+    
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    
+    <!-- Alpha Ads SDK with improved loading -->
+    <script>
+      // تحسين تحميل سكريبت إعلانات Alpha
+      (function() {
+        const adScript = document.createElement('script');
+        adScript.src = 'https://libtl.com/sdk.js';
+        adScript.setAttribute('data-zone', '9602684');
+        adScript.setAttribute('data-sdk', 'show_9602684');
+        adScript.async = true;
+        
+        // إضافة معالج للتحقق من التحميل الناجح
+        adScript.onload = function() {
+          console.log('✅ Alpha ads SDK loaded successfully');
+          if (typeof window.show_9602684 === 'function') {
+            console.log('✅ Alpha ads function is ready');
+          } else {
+            console.log('⚠️ Alpha ads function not available yet, retrying...');
+            // إعادة المحاولة بعد ثانية واحدة
+            setTimeout(() => {
+              if (typeof window.show_9602684 === 'function') {
+                console.log('✅ Alpha ads function is now ready');
+              } else {
+                console.log('❌ Alpha ads function still not available');
+              }
+            }, 1000);
+          }
+        };
+        
+        adScript.onerror = function() {
+          console.error('❌ Failed to load Alpha ads SDK');
+        };
+        
+        document.head.appendChild(adScript);
+      })();
+    </script>
+
+    <meta property="og:title" content="G COIN V3" />
+    <meta property="og:description" content="G COIN V3 - اكسب النقاط من خلال المهام والإحالات" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/lovable-uploads/9ea8efdf-d517-4006-a536-21c1c5255fbc.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@gcoinv3" />
+    <meta name="twitter:image" content="/lovable-uploads/9ea8efdf-d517-4006-a536-21c1c5255fbc.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Alpha Ads Initialization Helper -->
+    <script>
+      // مساعد إضافي لتهيئة إعلانات Alpha
+      window.addEventListener('load', function() {
+        console.log('🚀 Page loaded, checking Alpha ads...');
+        
+        // إنتظار قصير ثم التحقق من الإعلانات
+        setTimeout(() => {
+          if (typeof window.show_9602684 === 'function') {
+            console.log('✅ Alpha ads ready on page load');
+            // إرسال إشارة للتطبيق أن الإعلانات جاهزة
+            window.dispatchEvent(new CustomEvent('alphaAdsReady'));
+          } else {
+            console.log('⚠️ Alpha ads not ready on page load, will retry...');
+            // محاولة إضافية بعد 2 ثانية
+            setTimeout(() => {
+              if (typeof window.show_9602684 === 'function') {
+                console.log('✅ Alpha ads ready after retry');
+                window.dispatchEvent(new CustomEvent('alphaAdsReady'));
+              } else {
+                console.log('❌ Alpha ads still not ready after retry');
+              }
+            }, 2000);
+          }
+        }, 1000);
+      });
+    </script>
+    <script>
+const script1 = {
+    div_id: "fullscreen",
+    theme_style: 1,
+    order_by: 2,
+    limit_surveys: 7
+};
+
+const config = {
+    general_config: {
+        app_id: 123456, // ✅ استبدلها بـ App ID الخاص بك من CPX
+        ext_user_id: "user_123", // ✅ استبدلها بـ معرف المستخدم الخاص بك (مثل ID التليجرام أو الإيميل)
+    },
+    script_config: [script1],
+    useIFrame: true
+};
+
+window.config = config;
+    </script>
+    <script type="text/javascript" src="https://cdn.cpx-research.com/assets/js/script_tag_v2.0.js"></script>
+  </body>
+</html>

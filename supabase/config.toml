@@ -1,0 +1,89 @@
+project_id = "yyjxkogzsqiekbawwhgf"
+
+[functions.timewall-webhook]
+verify_jwt = false
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[functions.telegram-bot]
+verify_jwt = false
+
+[functions.setup-telegram-webhook]
+verify_jwt = false
+
+[functions.game-api]
+verify_jwt = false
+
+[functions.check-bot-token]
+verify_jwt = false
+
+[functions.check-webhook-status]
+verify_jwt = false
+
+[functions.test-bot-connection]
+verify_jwt = false
+
+[functions.send-test-message]
+verify_jwt = false
+
+[functions.get-bot-logs]
+verify_jwt = false
+
+[functions.add-balance]
+verify_jwt = false
+
+[functions.task-manager]
+verify_jwt = false
+
+[functions.restart-bot]
+verify_jwt = false
+
+[functions.check-pending-tasks]
+verify_jwt = false
+
+[functions.complete-kucoin-task]
+verify_jwt = false
+
+[functions.instant-withdrawal]
+verify_jwt = false
+
+[functions.process-withdrawals]
+verify_jwt = false
+
+[functions.auto-process-withdrawals]
+verify_jwt = false
+
+[functions.ton-station-withdrawal]
+verify_jwt = false
+
+[functions.instant-deposit-verification]
+verify_jwt = false
+
+[functions.check-bot-admin]
+verify_jwt = false
+
+[functions.verify-channel-membership]
+verify_jwt = false
+
+[functions.wheel-spin]
+verify_jwt = false
+
+[functions.arckey-callback]
+verify_jwt = false
+
+[functions.create-arcpay-payment]
+verify_jwt = false
+
+[functions.send-partnership-invitation]
+verify_jwt = false
+
+[functions.reset-twitter-tasks]
+verify_jwt = false
+
+[functions.create-partner-task]
+verify_jwt = false
